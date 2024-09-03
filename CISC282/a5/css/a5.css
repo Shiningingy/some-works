@@ -1,0 +1,420 @@
+/*****************************************************************************/
+/*General CHANGED*/ 
+/*****************************************************************************/
+html, body {
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Palatino, "Book Antiqua", Georgia, serif;
+    line-height: 1.25;
+    font-size: 1rem;
+    width: 100%
+}
+
+p.noMargin{
+	margin: 0px;
+}
+
+.content{
+	padding-left:32px;
+	padding-right:32px;
+}
+
+.mainContent{
+	padding-top: 32px;
+	padding-bottom: 64px;
+}
+
+.whiteText{
+	color: white
+}
+
+.greyBG{
+	background-color: #eee;
+}
+
+.blueLink{
+	color: #002f5e
+}
+
+.HeroContainer{
+	width: 100%;
+	height:100%;
+}
+/*****************************************************************************/
+/*****************************************************************************/
+
+/*****************************************************************************/
+/* topBanner*/
+/*****************************************************************************/
+
+.commonTopBanner{
+	color: white;
+	width: 100%;
+}
+
+.siteTitle{
+	font-size: 2rem;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.hidden{
+	visibility: hidden;
+	float: right;
+}
+
+.searchForm{
+	padding-bottom: 12px;
+	padding-top: 12px;
+
+}
+.searchInputBox{
+	border: 0px;
+	border-radius: 3px;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	padding-left: 8px;
+	padding-right:8px;
+	width: calc(100% - 16px);
+	font-family: Open Sans, Lucida Grande, Lucida Sans Unicode, Helvetica Neue, Arial, sans-serif;
+	font-size: 1rem;
+
+}
+.dotBorder{
+	margin: 0px;
+	background-color: #002f5e;
+	border-style: dotted none none none;
+	border-color: rgba(255,255,255,0.5);
+	border-width: thin;
+}
+
+.dotBorder_upleft{
+	margin: 0px;
+	background-color: #002f5e;
+	border-style: dotted none none none;
+	border-color: rgba(255,255,255,0.5);
+	border-width: thin;
+}
+
+
+.HomeNav{
+	color: white;
+	display: block;
+	height: 100%;
+	text-decoration:none;
+}
+
+.mainNav{
+	color: white;
+	display: block;
+	height: 100%;
+	text-decoration:none;
+}
+
+
+.primaryNavLink{
+	font-family: Open Sans, Lucida Grande, Lucida Sans Unicode, Helvetica Neue, Arial, sans-serif;
+	font-size: 1.125rem;
+	font-weight: bold;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.socialLinkContainer{
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+
+.socialIcon{
+	font-size: 1.5rem;
+	color: white;
+}
+
+/*****************************************************************************/
+/*****************************************************************************/
+
+/*****************************************************************************/
+/*Footer*/
+/*****************************************************************************/
+.footerIconContainer{
+	padding-left:50%;
+	padding-bottom: 32px;
+	font-size: 1rem;
+}
+
+.footerTextContainer{
+	padding-left:50%;
+	font-size: 1rem;
+	padding-bottom: 8px;
+}
+
+.footerIcon{
+	font-size: 1rem;
+	color: white;
+}
+
+
+.unitSigWhite{
+	min-width: 15px;
+	width: 100%;
+}
+
+.commonBottomBanner{
+	padding-top: 32px;
+	padding-bottom: 64px;
+	color: white;
+	background-color: #a91639
+}
+
+
+.wordMarkContainer{
+	margin-top: 8px;
+	width: 200px;
+}
+
+.wordMark{
+	width: 200px;
+}
+/*****************************************************************************/
+/*****************************************************************************/
+
+/*****************************************************************************/
+/*Program Page*/
+/*****************************************************************************/
+
+td,tr,th{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 16px;
+	padding-right: 16px;
+	border-color: black;
+	border-style: solid;
+    border-width: 1px;
+}
+
+
+.programTable{
+	margin-bottom: 32px;
+    border-color: black;
+    border-collapse: collapse;
+    word-break: break-word;
+}
+
+.blockquote{
+	margin-left:16px;
+	margin-right: 16px;
+	padding:16px;
+	background-color: #eee;
+	box-shadow: 0.5px 0.5px rgba(0,0,0,0.25);
+}
+/*****************************************************************************/
+/*****************************************************************************/
+
+/*****************************************************************************/
+/*Gallery*/
+/*****************************************************************************/
+
+.thumbnail-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.thumbnail-gallery figure {
+    flex: 0 0;
+    margin: 0;
+    padding: 8px;
+}
+
+.thumbnail-gallery figure img {
+    height: 100px;
+}
+
+/*****************************************************************************/
+/*****************************************************************************/
+
+/*****************************************************************************/
+/* Misc*/
+/*****************************************************************************/
+h1,h2,h3,h4,h5,h6{
+	margin:0px;
+	font-family: Open Sans, Lucida Grande, Lucida Sans Unicode, Helvetica Neue, Arial, sans-serif;
+}
+
+h1{
+	font-size: 1.75rem;
+}
+
+h2{
+	font-size: 1.625rem;
+}
+
+h3{
+	font-size: 1.5rem;
+}
+
+h4{
+	font-size:1.375rem;
+}
+
+h5{
+	font-size:1.25rem;
+}
+
+h6{
+	font-size: 1.125rem;
+}
+
+.noGap{
+	font-size: 0rem;
+}
+/*****************************************************************************/
+/*****************************************************************************/
+
+/*****************************************************************************/
+/*Responsitive*/
+/*****************************************************************************/
+@media screen and (min-width: 576px){
+	.content{
+		padding-left:10%;
+		padding-right:10%;
+	}
+
+	a.mainNav:hover,a.HomeNav:hover{
+		color: rgba(0, 0, 0);
+		background-color: rgba(255, 255, 255, 0.75);
+		transition: 2s;
+	}
+
+	.dotBorder{
+		background-color: rgba(0,0,0,0.65);
+		margin: 0px;
+		border-style: dotted dotted dotted none;
+		border-color: rgba(255,255,255,0.5);
+		border-width: thin;
+	}
+
+	.dotBorder_upleft{
+		background-color: rgba(0,0,0,0.65);
+		margin: 0px;
+		border-style: dotted none dotted none;
+		border-color: rgba(255,255,255,0.5);
+		border-width: thin;
+	}
+
+	.socialLinkContainer{
+		position:absolute;
+	    bottom:0;
+	    right:0;
+		padding-left: 16px;
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+
+	.mainNav{
+		color: white;
+		display: block;
+		width: 150px;
+		padding-right: 16px;
+		height: 100%;
+		text-decoration:none;
+	}
+	.HomeNav{
+		color: white;
+		display: block;
+		width: 80%;
+		height: 100%;
+		text-decoration:none;
+	}
+
+	.HeroContainer{
+		background-image: url("../img/bee-collecting-pollen.jpg");
+	    background-repeat: no-repeat;
+	    background-position: center center;
+	    background-size: cover;
+	    position: absolute;
+	    z-index: -1;
+	    width: 100%;
+		height:100%;
+	}
+
+	.linkContainer{
+		position:relative;
+	    height: 40vh;
+		min-height: 300px;
+	}
+
+	.flexBox{
+		display: flex;
+		justify-content: space-between;
+		align-items: stretch;
+		flex-flow: row wrap;
+	}
+
+	.flexCol{
+		margin-left: 8px;
+		margin-right:8px;
+		padding: 16px;
+		background-color: #eee;
+		box-shadow: 1px 1px rgba(0,0,0,0.25);
+		flex:1 1 0px;
+		flex-grow: 1;
+	}
+	
+	.thumbnail-gallery figure img {
+    height: 150px;
+	}
+
+}
+@media screen and (min-width: 768px){
+	.siteTitle{
+		background-image: url("../img/queens-logo.png");
+	    background-repeat: no-repeat;
+	    background-position: center right;
+	    background-size: 100px auto;
+	}
+
+	.unitSigWhite{
+		width: 600px;
+	}
+
+	.footerTextContainer{
+		padding-left:300px;
+	}
+
+	.footerIconContainer{
+		padding-left:300px;
+}
+}
+
+@media screen and (min-width: 992px){
+	.thumbnail-gallery figure img {
+    height: 200px;
+	}
+
+	.siteTitle{
+		font-size: 2.5rem;
+	}
+
+	h1{
+		font-size: 2rem;
+	}
+
+	h2{
+		font-size: 1.75rem;
+	}
+}
+
+@media screen and (min-width: 1200px){
+	.commonBottomBanner{
+		background-image: url("../img/fas-diamonds.png");
+	    background-repeat: no-repeat;
+	    background-position: center right;
+	    background-size: 30% 100%;
+	}
+}
+/*****************************************************************************/
+/*****************************************************************************/
