@@ -1,0 +1,23 @@
+/*****************************************************************************/
+/* Colours */
+/*****************************************************************************/
+/*
+Red: #ac2b37
+Yellow: #edb220
+Blue: #1f3a60
+*/
+
+
+
+/*****************************************************************************/
+/* Fonts */
+/*****************************************************************************/
+/* Page 28 in Identity Guidelines */
+body {
+    font-family: Palatino, "Book Antiqua", Georgia, serif;
+    font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Open Sans, Lucida Grande, Lucida Sans Unicode, Helvetica Neue, Arial, sans-serif;
+}

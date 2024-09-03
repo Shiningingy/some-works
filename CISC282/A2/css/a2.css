@@ -1,0 +1,170 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Palatino, Book Antiqua, Georgia, serif;
+    line-height: 1.25;
+    font-size: 16px;
+    width: 100%
+}
+
+p.noMargin{
+	margin: 0px;
+}
+
+
+td,tr,th{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 16px;
+	padding-right: 16px;
+	border-color: black;
+	border-style: solid;
+    border-width: 1px;
+}
+
+.greyBG{
+	background-color: #eee;
+}
+
+.programTable{
+	margin-bottom: 32px;
+    border-color: black;
+    border-collapse: collapse;
+    word-break: break-word;
+}
+
+.blueLink{
+	color: #002f5e
+}
+
+.blockquote{
+	margin-left:16px;
+	margin-right: 16px;
+	padding:16px;
+	background-color: #eee;
+	box-shadow: 0.5px 0.5px rgba(0,0,0,0.25);
+}
+.noGap{
+	font-size: 0px;
+}
+
+.footerIconContainer{
+	padding-left:50%;
+	padding-bottom: 32px;
+	font-size: 16px;
+}
+
+.footerTextContainer{
+	padding-left:50%;
+	font-size: 16px;
+	padding-bottom: 8px;
+}
+
+.mainNav{
+	color: white;
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration:none;
+}
+
+.primaryNavLink{
+	font-family: Open Sans, Lucida Grande, Lucida Sans Unicode, Helvetica Neue, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.socialIcon{
+	font-size: 24px;
+	color: white;
+}
+
+.whiteText{
+	color: white
+}
+
+.footerIcon{
+	font-size: 16px;
+	color: white;
+}
+
+.commonTopBanner{
+	color: white;
+	width: 100%;
+}
+
+.unitSigWhite{
+	min-width: 15px;
+	width: 100%;
+}
+.commonBottomBanner{
+	padding-top: 32px;
+	padding-bottom: 64px;
+	color: white;
+	background-color: #a91639
+}
+
+.socialLinkContainer{
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.siteTitle{
+	font-size: 32px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.wordMarkContainer{
+	margin-top: 8px;
+	width: 200px;
+}
+
+.wordMark{
+	width: 200px;
+}
+
+
+
+.mainContent{
+	padding-top: 32px;
+	padding-bottom: 64px;
+}
+
+.content{
+	padding-left:32px;
+	padding-right:32px;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+	margin:0px;
+	font-family: Open Sans, Lucida Grande, Lucida Sans Unicode, Helvetica Neue, Arial, sans-serif;
+}
+
+h1{
+	font-size: 28px;
+}
+
+h2{
+	font-size: 26px;
+}
+
+h3{
+	font-size: 24px;
+}
+
+h4{
+	font-size:22px;
+}
+
+h5{
+	font-size:20px;
+}
+
+h6{
+	font-size: 18px;
+}
